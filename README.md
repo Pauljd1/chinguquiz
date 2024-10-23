@@ -1,6 +1,6 @@
 ## Chingu - Quiz - Solo Project
 
-![SmartBrain Interface](./demo.png)
+![Chingu Solo Project](./demo.png)
 
 this is the solo project for Chingu.
 
@@ -17,4 +17,5 @@ HTML5, CSS3, JavaScript,
 ## Acknowledgments
 
 Huge Thanks to the chingu team for this challenge.
+
 # chinguquiz

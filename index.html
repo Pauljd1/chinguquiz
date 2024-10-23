@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chingu Quiz</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <div id="nav-container">
+                <img
+                    src="chingu.png"
+                    class="chinguLogo"
+                    alt="Quiz Logo with Chingu"
+                />
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Questions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="quizQuestions">
+            <div id="questionNumber"></div>
+            <div id="question"></div>
+            <div id="options">
+                <button id="option1"></button>
+                <button id="option2"></button>
+                <button id="option3"></button>
+                <button id="option4"></button>
+            </div>
+            <div id="correctItems" style="display: none">
+                <p>CORRECT!</p>
+                <button id="nextBtn">NEXT</button>
+            </div>
+        </div>
+
+        <div class="popup-overlay" id="popupOverlay" style="display: none">
+            <div class="popup">
+                <span class="close" id="closePopup">&times;</span>
+                <div class="popup-content">
+                    <div id="popupMessage"></div>
+                    <button id="resetQuizBtn">Reset Quiz</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
