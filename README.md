@@ -18,4 +18,4 @@ HTML5, CSS3, JavaScript,
 
 Huge Thanks to the chingu team for this challenge.
 
-# chinguquiz
+
